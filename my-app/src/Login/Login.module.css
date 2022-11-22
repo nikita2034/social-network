@@ -1,0 +1,138 @@
+
+.login{
+  background-color:#37537f;
+  height: 150px;
+  width: 350px;
+  margin-top: 120px;
+  margin-left: 120px;
+  border-radius:12px
+}
+
+.enter{
+   position: fixed; 
+  top: 0px;
+  left: 0; 
+  width: 100%;
+  height: 100%; 
+  background-image: url(logo/earth-3866609.jpg);
+  background-size: cover;
+   overflow: 'hidden',
+}
+
+.flex{
+  display: inline-flex;
+  margin-top: 13px;
+}
+.button{
+    height: 25px;
+    width: 100px;
+    background-color: #d6e2f3;
+    border:none;
+    border-radius:5px;
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 45px;
+}
+.button:hover{
+  background-color: #4169a9;
+}
+
+.header{
+  text-align: center;
+  font-family: Impact;
+  color:#d6e2f3;
+  font-size: 20px;
+}
+.text{
+  text-align: center;
+  font-family: Impact;
+  color:#d6e2f3;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.input2{
+  margin-left: 25px;
+}
+.input1{
+  margin-left: 61px;
+}
+.footer{
+  display: inline-flex;
+}
+.inputName{
+  width: 180px;
+  margin-left:54px;
+}
+.inputAvatar{
+  width: 180px;
+  margin-left:48px;
+}
+.inputLogin{
+  width: 180px;
+  margin-left:56px;
+}
+.inputPassword{
+  width: 180px;
+  margin-left:20px;
+}
+.label{
+  padding-right: 10px;
+}
+.h2{
+  text-align: center;
+  font-size:30px; 
+  letter-spacing:2px;
+}
+.box {
+  padding-left: 60px;
+  padding-top: 20px;
+  display: inline-flex;
+}
+
+  .modal{
+    background-color:#37537f;
+    width: 450px;
+    height: 350px;
+    border-radius:15px;
+    margin-top: -50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-550px;
+    margin-top: -185px;
+    color:#c0d4f2;
+    font-size:20px; 
+    font-family: Impact;
+  }
+
+  .buttonCreate{
+    background-color: #325997;
+    height: 40px;
+    width: 100px;
+    border-radius:15px;
+    border: none;
+    color:#c0d4f2;
+    font-family: Impact;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px ;
+  }
+  .buttonCreate:hover{
+    background-color: #4169a9;
+  }
+  .buttonClose{
+    background-color: #325997;
+    height: 40px;
+    width: 100px;
+    border-radius:15px;
+    border: none;
+    color:#c0d4f2;
+    font-family: Impact;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 130px ;
+  
+  }
+  .buttonClose:hover{
+    background-color: #4169a9;
+  }

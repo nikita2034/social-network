@@ -1,0 +1,13 @@
+.button{
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius:5px;
+}
+.new{
+    background-color:#7b7b7d;
+    /* padding: 20px; */
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 25px;
+}

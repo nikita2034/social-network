@@ -1,0 +1,142 @@
+.profileWrapper {
+    display: grid;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    grid-template-areas:
+      "r t"
+      "y y"
+      "u u";
+  
+    grid-template-rows:290px 60px 1fr;
+    grid-template-columns:2fr 10fr;
+}
+.form{
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.userPhoto{
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 60px;
+    border: 2px solid #37537f;
+}
+.userInformation{
+    grid-area: t;
+    height: 60px;
+    width: 160px;
+    background-color:#37537f;
+    padding: 20px;
+    margin-top: 110px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    border-radius: 25px;
+}
+
+.userName{
+    font-family: Impact;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+.userPosts{
+    grid-area: u;
+    background-color: #7b7b7d;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 25px;
+    
+}
+
+.userActivity{
+    grid-area: y;
+    width: 450px;
+    background-color: #37537f;
+    border-radius: 25px;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-right: 60px;
+    padding: 20px;
+}
+.comments{
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 300px;
+    height: 30px;
+    background-color:#516d9a;
+    color: #c0d4f2;
+    font-family:Arial Narrow Bold;
+    font-size: 15px; 
+    border:none;
+    border-radius:10px;
+}
+.input{
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 120px;
+    height: 30px;
+    background-color:#516d9a;
+    color: #c0d4f2;
+    font-family:Arial Narrow Bold;
+    font-size: 15px; 
+    border:none;
+    border-radius:10px;
+}
+.button{
+    background-color: #284d89;
+    height: 40px;
+    width: 70px;
+    margin-top: 12px;
+    margin-left: 25px;
+    border-radius:15px;
+    border: none;
+    color:#c0d4f2;
+    font-family: Impact;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: #4169a9;
+}
+
+.posts{
+    margin-top: 10px;
+    margin-left: 85px;
+    text-align: center;
+    color:#c0d4f2;
+    font-family: Impact;
+    font-size: 25px; 
+    
+}
+
+.inputForm{
+    margin-top: 5px;
+    margin-left: 8px;
+    width: auto ;
+    height: auto;
+    color: #c0d4f2;
+    font-family:Arial Narrow Bold;
+    font-size: 15px; 
+}
+.inputBlock{
+    background-color: #516d9a;
+    width: 250px;
+    height: 33px; 
+    margin-top: 15px;
+    margin-left: 25px;
+    border-radius:10px;
+}
+.block{
+    background-color: #284d89;
+    width: 250px;
+    height: 40px; 
+    margin-top: 35px;
+    margin-left: 155px;
+    border-radius:13px;
+}
